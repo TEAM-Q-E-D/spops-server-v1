@@ -1,0 +1,28 @@
+{
+  "name": "spops-server",
+  "version": "1.0.0",
+  "description": "pip install flask boto3 python-dotenv",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TEAM-Q-E-D/spops-server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TEAM-Q-E-D/spops-server/issues"
+  },
+  "homepage": "https://github.com/TEAM-Q-E-D/spops-server#readme",
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.592.0",
+    "@aws-sdk/lib-dynamodb": "^3.592.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "uuid": "^9.0.1"
+  }
+}
